@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Inline</title>
+    <style>
+        h1 {
+            color: rgb(255, 0, 255);
+            font-size: 5vw;
+        }
+        
+        .minha_classe {
+            color: rgb(255, 0, 255);
+            border: 2vw solid rgb(128, 58, 0);
+        }
+        
+        #verde {
+            color: rgb(128, 0, 75);
+        }
+        
+        p {
+            margin-bottom: 2vw;
+        }
+        
+        .amarelo {
+            color: rgb(251, 255, 0);
+        }
+        
+        .verde-fraco {
+            color: rgba(0, 128, 0, 0.411);
+        }
+        
+        .rosa {
+            color: rgb(255, 192, 227);
+            border: 0.5vw solid rgba(0, 0, 255, 0.438);
+        }
+        
+        @media screen and (max-width: 600px) {
+            h1 {
+                font-size: 8vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Estilo</h1>
+
+    <a href="exercicio.html">
+        <h2>Página Exercício</h2>
+    </a>
+
+    <p class="amarelo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut lectus at nisi iaculis gravida. Ut at erat diam. Curabitur commodo eu metus bibendum rutrum. Donec iaculis quam eget mauris consequat porttitor. Donec mattis at erat ut rutrum. Fusce
+        pulvinar purus eget convallis congue.</p>
+
+    <p class="verde-fraco">Nam rhoncus augue quis arcu consectetur, eget euismod elit auctor. Phasellus odio eros, convallis et urna quis, commodo varius metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi efficitur elementum
+        leo a suscipit. Aliquam augue dui, condimentum vel nibh sit amet, dignissim bibendum neque.</p>
+
+    <p class="rosa">Suspendisse elementum ante ligula, quis pharetra urna viverra ut. Maecenas vel metus ac elit vestibulum tincidunt. Nulla enim ipsum, pretium lobortis maximus et, vehicula vitae turpis. Vivamus euismod gravida purus, vitae vestibulum velit interdum
+        eu.
+    </p>
+
+    <p class="minha_classe">Nunc finibus semper diam non hendrerit. Aliquam nec turpis eu metus hendrerit feugiat. Sed risus arcu, dapibus sit amet convallis quis, consequat id nibh. Proin aliquam at nunc at consectetur.</p>
+
+    <h1 class="minha_classe">Teste Minha Classe</h1>
+
+    <h1 id="verde">Teste ID</h1>
+</body>
+
+</html>

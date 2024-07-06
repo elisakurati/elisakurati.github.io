@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo-removebg-preview.png">
+    <title>Boa Viagem Turismo</title>
+</head>
+<body>
+    <header>
+        <div class="logo3">
+            <img src="Boa_Viagem_Turismo-removebg-preview.png" alt="">
+        </div>
+    </header>
+    <div class="container">
+       <div class="hamburguer">
+        <div class="Line" id="Line1"></div>
+        <div class="Line" id="Line2"></div>
+        <div class="Line" id="Line3"></div>
+        <span>fechar</span>
+       </div>
+        <div class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="index.html" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="QuemSomos.html" class="menu-link">Quem Somos</a></li>
+                    <li class="menu-item"><a href="contato.html" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="destino.html" class="menu-link">Destinos</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="formulario">
+            <h2> Pacote de Viagens </h2>
+            <form action="enviar_contato.php" method="post">
+                <div class="form-group">
+                    <label for="origem">Origem:</label>
+                    <input type="text" id="origem" name="origem" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="destino">Destino:</label>
+                    <input type="text" id="destino" name="destino" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="data_partida">Data da Partida:</label>
+                    <input type="date" id="data_partida" name="data_partida" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="data_retorno">Data de Retorno:</label>
+                    <input type="date" id="data_retorno" name="data_retorno" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="tipo_acomodacao">Tipo de Acomodação:</label>
+                    <select id="tipo_acomodacao" name="tipo_acomodacao">
+                        <option value="casa">Casa</option>
+                        <option value="apartamento">Apartamento</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="qtd_adultos">Quantidade de Adultos:</label>
+                    <input type="number" id="qtd_adultos" name="qtd_adultos" min="1" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="qtd_criancas">Quantidade de Crianças:</label>
+                    <input type="number" id="qtd_criancas" name="qtd_criancas" min="0" required>
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>     
+    </div>
+</body>
+<script src="script.js "></script>
+
+</html>

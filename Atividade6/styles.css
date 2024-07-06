@@ -1,0 +1,55 @@
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+#menu li a:hover {
+    background-color: #555;
+}
+
+#conteudo {
+    background-color: #CECE7B;
+    padding: 20px;
+}
+
+#rodape {
+    background-color: rgb(206, 141, 123);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.copy {
+    font-style: italic;
+    font-weight: bold;
+}
+
+div {
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(18, 18, 51, 0.171) rgb(187, 174, 174) rgb(100, 100, 143) rgb(4, 0, 255);
+    margin: 5px;
+    padding: 10px;
+}

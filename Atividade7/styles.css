@@ -1,0 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.fonteSerif {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2em;
+}
+
+.fonteSansSerif {
+    font-family: "Verdana", Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+.fonteMonospace {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.2em;
+}
+
+.conteudo {
+    text-align: center;
+    margin-top: 50px;
+}
