@@ -1,0 +1,16 @@
+.pessoa {
+    font-family: Arial, sans-serif;
+    margin: 5px 0;
+    color: #ad0b0b;
+    cursor: pointer; 
+}
+
+.pessoa[data-idade=''] {
+    color: #06069e;
+}
+
+.pessoa::before {
+    content: "Nome: " attr(data-nome) " - Idade: " attr(data-idade) " Anos - CPF: " attr(data-cpf);
+    display: block;
+    font-weight: bold;
+}
