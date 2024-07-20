@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    animation: rotateAndChangeColor 10s infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rotateAndChangeColor {
+    0% {
+        transform: rotate(0deg);
+        background-color: #3498db;
+        border-radius: 0;
+    }
+    25% {
+        transform: rotate(90deg);
+        background-color: #e74c3c;
+        border-radius: 50%;
+    }
+    50% {
+        transform: rotate(180deg);
+        background-color: #f1c40f;
+        border-radius: 0;
+        width: 150px;
+        height: 75px;
+    }
+    75% {
+        transform: rotate(270deg);
+        background-color: #2ecc71;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    100% {
+        transform: rotate(360deg);
+        background-color: #3498db;
+        border-radius: 0;
+        width: 100px;
+        height: 100px;
+    }
+}
