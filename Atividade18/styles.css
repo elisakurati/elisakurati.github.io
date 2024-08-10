@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 80%;
+    max-width: 900px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.form-box {
+    flex: 1;
+    margin-right: 20px;
+}
+.form-box:last-child {
+    margin-right: 0;
+}
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+.options-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.options-group label {
+    margin-right: 20px;
+    font-weight: normal;
+    color: #333;
+}
+.checkbox-group, .radio-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.radio-group label {
+    margin-right: 20px;
+}
+
+.top-link {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.top-link a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.top-link a:hover {
+    text-decoration: underline;
+}
+.container {
+    padding: 20px;
+}
+.form-box {
+    margin-bottom: 20px;
+}
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-default {
+    background-color: #6c757d;
+}
