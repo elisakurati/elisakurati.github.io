@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .profile-container {
+            max-width: 500px;
+            margin: 0 auto; 
+            padding: 20px; 
+            background-color: #ffffff; 
+            border-radius: 10px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+        .stats {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 0.25rem;
+        }
+        .stats .container {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ffffff; 
+            margin-bottom: 10px; 
+        }
+        .stats .container:last-child {
+            border-bottom: none; 
+            margin-bottom: 0; 
+        }
+        .stats .number {
+            font-size: 1.5rem; 
+            font-weight: bold;
+        }
+        .stats .title {
+            font-size: 1rem; 
+        }
+        .card {
+            background-color: transparent; 
+            border: none; 
+        }
+        .button {
+            margin-top: 20px; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-5 d-flex justify-content-center">
+        <div class="profile-container">
+            <div class="card p-3 text-center">
+                <h4 class="mb-3">User Profile</h4>
+                <div class="image mb-3">
+                    <img src="img/nina.jpeg" class="rounded-circle" width="150" alt="Profile Image">
+                </div>
+                <h4 class="mb-0">Nina Mcintire</h4>
+                <span>Software Engineer</span>
+                <div class="p-2 mt-2 bg-primary rounded text-white stats">
+                    <div class="container">
+                        <span class="title">Followers</span>
+                        <span class="number">1,200</span>
+                    </div>
+                    <div class="container">
+                        <span class="title">Following</span>
+                        <span class="number">980</span>
+                    </div>
+                    <div class="container">
+                        <span class="title">Friends</span>
+                        <span class="number">500</span>
+                    </div>
+                </div>
+                <div class="button mt-3">
+                    <button class="btn btn-sm btn-primary w-100">Follow</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <a href="layout.html" class="btn btn-primary">Ir para Layout</a>
+        <a href="index.html" class="btn btn-secondary">Voltar para Início</a>
+    </div>
+
+</body>
+</html>
