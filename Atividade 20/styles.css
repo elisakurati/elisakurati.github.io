@@ -1,0 +1,121 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #8353b1;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #9c75c0;
+}
+
+.navbar-nav .dropdown-item {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #db4fbd;
+}
+
+/* Estilo da Janela Modal */
+.modal-sm {
+    max-width: 300px;
+}
+
+.modal-header {
+    background-color: #4c2570;
+    color: white;
+    padding: 10px;
+    border-bottom: none;
+}
+
+.modal-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.modal-body {
+    padding: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 8px;
+}
+
+.modal-footer {
+    padding: 10px;
+    border-top: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-social {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.btn-google {
+    background-color: #db4437;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.text-center {
+    text-align: center;
+    margin: 8px 0; 
+}
+
+.text-center span {
+    display: block;
+    margin: 4px auto; 
+    text-align: center;
+}
+
+.btn-secondary {
+    width: 100%; 
+    margin-top: 15px; 
+    text-align: center;
+}
