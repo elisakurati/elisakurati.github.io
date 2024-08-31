@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #343a40; 
+}
+
+.btn {
+    margin-right: 5px; 
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    --bs-table-accent-bg: #f8f9fa;
+}
+
+.table-striped > tbody > tr:hover {
+    --bs-table-accent-bg: #e9ecef;
+}
