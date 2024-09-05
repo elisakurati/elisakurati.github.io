@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API VIACEP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>API VIA CEP</h1>
+    <hr>
+    <label for="cep">Pesquisar Cep: 
+        <input name="cep" type="text" id="cep" placeholder="Somente Números" size="10" maxlength="9">
+    </label>
+    <button id="mybtn">Buscar</button>
+
+    <br><hr>
+
+    <div id="resultado">
+        <label for="rua">Rua: 
+            <input type="text" id="rua" size="60" readonly>
+        </label><br>
+
+        <label for="bairro">Bairro: 
+            <input type="text" id="bairro" size="40" readonly>
+        </label><br>
+
+        <label for="cidade">Cidade: 
+            <input type="text" id="cidade" size="40" readonly>
+        </label><br>
+
+        <label for="uf">Estado: 
+            <input type="text" id="uf" size="2" readonly>
+        </label><br>
+
+        <label for="ibge">IBGE: 
+            <input type="text" id="ibge" size="8" readonly>
+        </label><br>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
